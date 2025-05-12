@@ -1,6 +1,6 @@
 # GitHub Profile Template
 
-Brief description
+Default Community Health Files for the Dev Expertness organization on GitHub
 
 ## License
 
