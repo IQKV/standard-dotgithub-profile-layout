@@ -14,4 +14,4 @@ It plays nicely with Docker and Kubernetes.
 
 ## License
 
-This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the Apache License. See the [LICENSE](../LICENSE) file for more details.
