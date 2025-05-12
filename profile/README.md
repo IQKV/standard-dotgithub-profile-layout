@@ -10,3 +10,8 @@ It plays nicely with Docker and Kubernetes.
 - [Git](https://git-scm.com/)
 - [Docker](https://www.docker.com/get-started/)
 - [Docker Compose](https://docs.docker.com/compose/)
+
+
+## License
+
+This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for more details.
