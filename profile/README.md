@@ -1,6 +1,6 @@
 ## ✨ Introduction
 
-Dev Expertness is a free, open-source, API-first, headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.
+This project is a free, open-source, API-first, headless platform built using Spring Boot, Kafka, Postgresql, and ReactJs.
 
 It plays nicely with Docker and Kubernetes.
 
