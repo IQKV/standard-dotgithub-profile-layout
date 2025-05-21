@@ -5,7 +5,7 @@ Default Community Health Files for the organization on GitHub
 --- 
 
 <a name="changelog"></a>
-## 📆 Release Notes
+## 📆 Changelog
 
 Can be found in [CHANGELOG](CHANGELOG.md).
 
