@@ -42,7 +42,7 @@ importers:
         specifier: ^3.0.0
         version: 3.2.1
       stylelint:
-        specifier: ^16.20.0
+        specifier: ^16.21.0
         version: 16.20.0(typescript@5.8.3)
       stylelint-config-standard-scss:
         specifier: ^15.0.0
@@ -1958,7 +1958,7 @@ packages:
     resolution: {integrity: sha512-U7CKhi1YNkM1pXUXl/GMUXi8xKdhl4Ayxdyceie1nZ1XNIdaUgMV6OArpooWcDzEggwgYD0HP/xIgVJo9a655w==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
-      stylelint: ^16.0.2
+      stylelint: ^16.21.0
 
   stylelint@16.20.0:
     resolution: {integrity: sha512-B5Myu9WRxrgKuLs3YyUXLP2H0mrbejwNxPmyADlACWwFsrL8Bmor/nTSh4OMae5sHjOz6gkSeccQH34gM4/nAw==}
