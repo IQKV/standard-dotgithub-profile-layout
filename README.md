@@ -50,16 +50,17 @@ Please follow [Code of Conduct](.github/CODE_OF_CONDUCT.md) page.
 
 This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for more details.
 
-
 ---
 
 ## Project Tooling & Configuration
 
 ### **Package Management**
+
 - **pnpm** - Package manager with `pnpm-lock.yaml`
 - **Node.js** - Engine requirement `>=22.13.0`
 
 ### **Development Scripts**
+
 - `lint` - Run stylelint for CSS files
 - `lint:stylelint` - Stylelint with caching
 - `prettier:check` - Check code formatting
@@ -69,6 +70,7 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 - `prepare` - Setup husky hooks
 
 ### **Code Quality Tools**
+
 - **Prettier** - Code formatting (`.prettierrc`, `.prettierignore`)
 - **Stylelint** - CSS/SCSS linting with standard config
 - **EditorConfig** - Cross-editor consistency
@@ -77,17 +79,20 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 - **Commitizen** - Conventional commit messages
 
 ### **Git & Release Management**
+
 - **Commitlint** - Enforce conventional commits
 - **Release-it** - Automated releases with conventional changelog
 - **Husky pre-commit hooks** - Quality checks before commits
 
 ### **GitHub Workflow Checks**
+
 - **PR Title Validation** - Ensure conventional PR titles
 - **Commit Message Validation** - Check commit conventions
 - **Node.js Build Pipeline** - Project build validation
 - **Template Usage** - Setup workflow for template users
 
 ### **Community Health Files**
+
 - Issue templates (7 templates)
 - Pull request template
 - Code of conduct, contributing guidelines
