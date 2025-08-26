@@ -52,7 +52,7 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 
 ---
 
-## Project Tooling & Configuration
+## _GitHub Project Tooling Overview_
 
 ### **Package Management**
 
