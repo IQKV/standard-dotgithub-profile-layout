@@ -66,7 +66,7 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 - `prettier:check` - Check code formatting
 - `prettier:write` - Format code
 - `release` - Release with release-it (CI mode)
-- `node_modules:clear` - Clean dependencies
+- `node_modules:cleanup` - Clean dependencies
 - `prepare` - Setup husky hooks
 
 ### **Code Quality Tools**
