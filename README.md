@@ -63,8 +63,8 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 
 - `lint` - Run stylelint for CSS files
 - `lint:stylelint` - Stylelint with caching
-- `prettier:check` - Check code formatting
-- `prettier:write` - Format code
+- `formatter:check` - Check code formatting
+- `formatter:write` - Format code
 - `release` - Release with release-it (CI mode)
 - `node_modules:cleanup` - Clean dependencies
 - `prepare` - Setup husky hooks
