@@ -71,7 +71,7 @@ This project is licensed under the Apache License. See the [LICENSE](LICENSE) fi
 
 ### **Code Quality Tools**
 
-- **Prettier** - Code formatting (`.prettierrc`, `.prettierignore`)
+- **oxfmt** - Code formatting (`.prettierrc`, `.prettierignore`)
 - **Stylelint** - CSS/SCSS linting with standard config
 - **EditorConfig** - Cross-editor consistency
 - **Husky** - Git hooks management
