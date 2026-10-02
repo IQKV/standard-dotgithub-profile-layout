@@ -40,6 +40,7 @@ Format: `type(scope): subject`
 - For `fix`: symptom + trigger, not the code change
 
 Examples:
+
 - `docs(profile): update tech stack badges`
 - `feat(brand): add dark mode logo variant`
 - `chore(deps): update oxfmt`
