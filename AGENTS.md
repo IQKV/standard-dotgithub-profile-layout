@@ -71,6 +71,33 @@ Never cut: validation at trust boundaries, error handling that prevents data los
 - **Never create** summary or review markdown files automatically.
 - Content changes to `profile/README.md` are the primary work — keep them factual and accurate.
 
+## Evaluation
+
+How we judge whether an agent task in this repository is actually done. Evaluation is evidence-based — a claim without the command and its observed result is not a pass.
+
+> This section starts minimal and grows with the repository. Add a gate only when a change type repeatedly slips through without it.
+
+### Definition of done
+
+A task is evaluated as done only when all of the following hold:
+
+- Every gate required by the change type below has run and passed.
+- The final report names the exact command(s) run and the observed result (pass/fail) — per AI Agent Guidelines.
+- No required gate was skipped silently. A gate that could not run is reported as a gap, never as a pass.
+
+### Required gates by change type
+
+| Change type | Required gates |
+| --- | --- |
+| Any change | `pnpm formatter:check` |
+| Profile or layout content | Rendered preview checked before presenting a result |
+| Workflow or config file change | Confirm with the user first, then `pnpm formatter:check` |
+| Wording-only edit | `pnpm formatter:check` |
+
+### Ordering
+
+Run the narrowest relevant gate first, then the full set for the change type. On the first failure, stop and report it — do not continue on an unproven base (see Execution Discipline).
+
 ## Commit Standards
 
 Format: `type(scope): subject`
