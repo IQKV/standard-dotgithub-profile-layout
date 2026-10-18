@@ -87,12 +87,12 @@ A task is evaluated as done only when all of the following hold:
 
 ### Required gates by change type
 
-| Change type | Required gates |
-| --- | --- |
-| Any change | `pnpm formatter:check` |
-| Profile or layout content | Rendered preview checked before presenting a result |
+| Change type                    | Required gates                                           |
+| ------------------------------ | -------------------------------------------------------- |
+| Any change                     | `pnpm formatter:check`                                   |
+| Profile or layout content      | Rendered preview checked before presenting a result      |
 | Workflow or config file change | Confirm with the user first, then `pnpm formatter:check` |
-| Wording-only edit | `pnpm formatter:check` |
+| Wording-only edit              | `pnpm formatter:check`                                   |
 
 ### Ordering
 
